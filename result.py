@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 # ── Load training history ───────────────────────────────────────────────────
-with open("/workspace/outputs/history.json", "r") as f:
+with open("/home/user/Proj-Ploy/vit_breast_cancer/outputs/history.json", "r") as f:
     history = json .load(f)
 
 # ── Plot training curves ───────────────────────────────────────────────────
